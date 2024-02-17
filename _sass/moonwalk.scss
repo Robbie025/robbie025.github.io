@@ -65,12 +65,12 @@ img {
 }
 @mixin light-appearance {
   html, body {
-      --bg: #FFF;
-      --bg-secondary: #f3f4f6;
-      --headings: #1e293b;
-      --text: #374151;
-      --text-secondary: #6b7280;
-      --links: #6366f1;
+      --bg: #f6f3f0e3;
+      --bg-secondary: #f6f3f0e3;
+      --headings: #000000;
+      --text: #000000;
+      --text-secondary: #000000;
+      --links: #000000;
       --highlight: #FFECB2; // light yellow
       --code-text: #9D174D;
       --share-text: #999;
@@ -79,13 +79,13 @@ img {
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   html, body  {
-      --headings: #74c0fc;
-      --links: #91A7FF;
+      --headings: #f2f5f8;
+      --links: #5df70a;
       --highlight: #41C7C7;
-      --bg: #1f242A;
-      --bg-secondary: #323945;
-      --text: #adb5bd;
-      --text-secondary: #9CA3AF;
+      --bg: #01060c;
+      --bg-secondary: #01060c;
+      --text: #f1f4f6;
+      --text-secondary: #f3f6fa;
       --code-text: #91A7FF;
       --share-text: #C4C4C4;
   };

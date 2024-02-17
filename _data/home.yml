@@ -1,39 +1,36 @@
 navbar_entries:
-  - title: Varun Gopinath (PhD)
+  - title: ABOUT ME
     url: about
 
-  - title: blog
+  - title: BLOG
     url: blog
 
-  - title: website
-    url: https://www.abhinav.co
+  - title: CONTACT
+    url: 404.html
+
 
 project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
-
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
-
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
-
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
+  - title: Collaborative Robotics -- A Feature
+    url: cobot-feature
+    desc: Collaborative operation is an additional feature to an Industrial Robotic System.
     highlight: WIP
 
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
+  - title: Safety, education and AI
+    url: ai-education
+    desc: An emergent safety issue in the context of AI in schools.
     highlight: WIP
 
-  - title: Project 6
+  - title: What to Automate?
+    url: What-to-Automate
+    desc: Companies are trying to automate everything.
+    highlight: WIP
+
+  - title: ComplexRF
     url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
+    desc: Complexrf in python is on github. 
+    highlight: WIP
+
+
 
 old_project_entries:
   - title: Soopr
@@ -54,17 +51,17 @@ old_project_entries:
     desc: The better people know you, the better they collaborate
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
+  - title: Varun Gopinath (PhD)
+    url: https://robbie025.github.io/
 
-  - title: twitter
-    url: https://twitter.com/abhinav
+  - title: X
+    url: https://twitter.com/RobxRobbie    
 
-  - title: github
-    url: https://github.com/abhinavs
+  - title: Github
+    url: https://github.com/Robbie025
 
-  - title: feed
-    url: feed.xml
+  - title: Linkedin
+    url: 404.html
 
 misc_entries:
   - title: this is an example vertical list
