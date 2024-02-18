@@ -10,6 +10,11 @@ navbar_entries:
 
 
 project_entries:
+  - title: Laws Of Robots
+    url: laws-of-robots 
+    desc: The rules and laws of robots proposed by Issac and Yokomizo. 
+    highlight: WIP
+    
   - title: Collaborative Robotics -- A Feature
     url: cobot-feature
     desc: Collaborative operation is an additional feature to an Industrial Robotic System.
