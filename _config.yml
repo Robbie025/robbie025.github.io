@@ -1,13 +1,11 @@
-title: Automation, Collaboration & Safety
+title: Humans & Automation - Thoughts on Safety
 author: Varun Gopinath
 url: https://www.robbie025.github.io/moonwalk # root address of the site
 description: > # description of the site (multiple lines allowed)
-  This blog is mainly to voice my opinion on safety issues in technical systems that 
-  collaborate or interact with humans. The topics might be varied as i write this 
-  mainly to improve my knowledge and skills in the matter.
+  This blog is dedicated to concepts in robotics and automation, especially 
+  when they interact or collaborate with humans. My interests are in Industrial 
+  systems though this blog will cover machines in its entirety.
   
-  This is work in progress. 
-
 
 permalink: /:slug
 
