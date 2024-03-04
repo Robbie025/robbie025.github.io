@@ -1,10 +1,17 @@
-title: Humans & Automation - Thoughts on Safety
+title: Levelling Automation 
 author: Varun Gopinath
 url: https://www.robbie025.github.io/moonwalk # root address of the site
 description: > # description of the site (multiple lines allowed)
-  This blog is dedicated to concepts in robotics and automation, especially 
-  when they interact or collaborate with humans. My interests are in Industrial 
-  systems though this blog will cover machines in its entirety.
+  "Engineering Safer Future Systems with Robotics and Human Oversight" would be 
+  the theme of this blog where I attempt the art of writing to understand the
+  highly dynamic & wonderfully technical world we live in. See my post on Levelling 
+  Automation if you are curious about what I eman by "Levelling Automation".
+
+  This blog is focussed on concepts in automation, especially 
+  when technical-systems interact or collaborate with human-systems. My current
+  interests are in understanding concepts in Industrial systems as these 
+  concepts seems to be moving from industrial environments to more broader sectors
+  including mining, laboratories, marine etc.  
   
 
 permalink: /:slug

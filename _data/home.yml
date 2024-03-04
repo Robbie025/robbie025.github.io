@@ -1,15 +1,19 @@
 navbar_entries:
-  - title: ABOUT ME
+  - title: SHORT BIO
     url: about
 
   - title: BLOG
     url: blog
 
   - title: CONTACT
-    url: 404.html
+    url: https://www.linkedin.com/in/varun-gopinath-115169
 
 
 project_entries:
+  - title: Levelling Automation
+    url: levelling automation 
+    desc: An attempt to explain the title of the blog. 
+ 
   - title: Laws Of Robots
     url: laws-of-robots 
     desc: The rules and laws of robots proposed by Issac and Yokomizo. 
@@ -25,10 +29,7 @@ project_entries:
     desc: An emergent safety issue in the context of AI in schools.
     highlight: WIP
 
-  - title: What to Automate?
-    url: What-to-Automate
-    desc: Companies are trying to automate everything.
-    highlight: WIP
+
 
   - title: ComplexRF
     url: overview-post
