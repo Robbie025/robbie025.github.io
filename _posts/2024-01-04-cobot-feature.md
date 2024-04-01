@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [soopr, config]
-title: Collaborative Operration is a Feature not to be taken lightly.
+title: Collaborating with Robots is a Feature 
 ---
 
 As of the year 2024, machies are still designed in a way so that it can operate autonomously within a very specific boundary. Robots are machines, and like all machines are designed, operated and commissioned by humans. 
