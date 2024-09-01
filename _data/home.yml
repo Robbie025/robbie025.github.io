@@ -11,6 +11,12 @@ navbar_entries:
 
 
 project_entries:
+
+  - title: Concerns with AI
+    url: ai-safety-1
+    desc: A concern about AI and its potential effect on the larger society.
+    highlight: NEW
+
   - title: Levelling Automation
     url: levelling-automation 
     desc: An attempt to explain the title of the blog. 
@@ -18,19 +24,12 @@ project_entries:
   - title: Laws Of Robots
     url: laws-of-robots 
     desc: The rules and laws of robots proposed by Issac and Yokomizo. 
-    highlight: WIP
+    highlight:  
     
   - title: Collaborative Robotics -- A Feature
     url: cobot-feature
     desc: Collaborative operation is an additional feature to an Industrial Robotic System.
-    highlight: WIP
-
-  - title: Safety, education and AI
-    url: ai-education
-    desc: An emergent safety issue in the context of AI in schools.
-    highlight: WIP
-
-
+    highlight:  
 
   - title: ComplexRF
     url: overview-post
