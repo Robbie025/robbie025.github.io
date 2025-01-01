@@ -12,6 +12,11 @@ navbar_entries:
 
 project_entries:
 
+  - title: Catch-22 & BEV
+    url: hazardousbattery
+    desc: Electric vehicles have significant advantage and disadvantages.
+    highlight: NEW
+
   - title: Concerns with AI
     url: ai-safety-1
     desc: A concern about AI and its potential effect on the larger society.
