@@ -12,6 +12,11 @@ navbar_entries:
 
 project_entries:
 
+  - title: Ariana5 report
+    url: ariana5
+    desc: Thoughts and reflections on Ariana5 crash report.
+    highlight: NEW
+
   - title: Catch-22 & BEV
     url: hazardousbattery
     desc: Electric vehicles have significant advantage and disadvantages.
@@ -22,9 +27,7 @@ project_entries:
     desc: A concern about AI and its potential effect on the larger society.
     highlight: NEW
 
-  - title: Levelling Automation
-    url: levelling-automation 
-    desc: An attempt to explain the title of the blog. 
+ 
  
   - title: Laws Of Robots
     url: laws-of-robots 
