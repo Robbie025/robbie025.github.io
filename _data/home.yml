@@ -25,9 +25,7 @@ project_entries:
   - title: Concerns with AI
     url: ai-safety-1
     desc: A concern about AI and its potential effect on the larger society.
-    highlight: NEW
-
- 
+    highlight: NEW 
  
   - title: Laws Of Robots
     url: laws-of-robots 
