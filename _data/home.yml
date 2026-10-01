@@ -73,7 +73,7 @@ footer_entries:
     url: https://github.com/Robbie025
 
   - title: Linkedin
-    url: 404.html
+    url: https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B1zi3LM4jRui7at%2BtxLZrpQ%3D%3D
 
 misc_entries:
   - title: this is an example vertical list
@@ -106,5 +106,4 @@ misc_entries:
 
           - title: it is easy to use, see _data/home.yml to see how to configure it.
             url: false
-
 

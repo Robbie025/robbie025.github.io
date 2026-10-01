@@ -1,15 +1,19 @@
-## Use Moonwalk with Github Pages
+# GitHub Pages deployment
 
-You can use Github Pages for deploying moonwalk for free.
+This site uses the custom Jekyll build in `.github/workflows/jekyll.yml`.
+GitHub Actions installs the Ruby version from `.ruby-version` and dependencies
+from `Gemfile.lock`, builds the site on Ubuntu 24.04, and publishes the `_site`
+artifact through GitHub Pages.
 
-> If you are deploying Moonwalk on Github Pages, I recommend forking Moonwalk and change the dependency (in `moonwalk.gemspec` & `_config.yml`) from `jekyll-soopr-seo-tag` to `jekyll-seo-tag` - Github Pages only allow a specific list of gems to be installed.
+In the repository's **Settings → Pages**, choose **GitHub Actions** as the
+deployment source. A push to `master` or a manual workflow run builds and
+deploys the site. Pull requests targeting `master` build without deploying.
 
+The Moonwalk layouts, includes, and assets come from this repository. No remote
+theme is fetched during the build. SEO metadata uses `jekyll-seo-tag`.
 
-### GitHub Pages installation
+The production URL and path are configured in `_config.yml`; the build uses
+the base path returned by GitHub Pages. Docker is only used for local editing
+and is not needed by the deployment workflow.
 
-If you want to use this theme for your Jekyll's site deployed on [GitHub Pages](https://pages.github.com/), follow the instructions on [this page](https://docs.github.com/en/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-using-jekyll#adding-a-theme).
-
-#### Please Note
-The default branch that Github pages uses to build and deploy the site is gh-pages branch (and not the master/main branch). To deploy master branch instead, you can change the settings as follows:
-
-FORKED_REPO > Settings > Pages > Source > select(Branch=Master)
+For local preview and dependency upgrades, see [README.md](README.md).

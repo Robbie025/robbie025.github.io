@@ -1,6 +1,7 @@
 title: Levelling Automation 
 author: Varun Gopinath
-url: https://www.robbie025.github.io/moonwalk # root address of the site
+url: https://robbie025.github.io # root address of the site
+baseurl: ""
 description: > # description of the site (multiple lines allowed)
   Automation through technology has the potential to benefit society significantly.
   In this blog, I aim to explore the impact of technology across various industries, 
@@ -19,8 +20,7 @@ twitter:
     username: RobxRobbie # update or delete this
     card: summary_large_image
 
-#theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
-remote_theme: abhinavs/moonwalk
+# The Moonwalk layouts and assets are maintained in this repository.
 
 theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
@@ -55,4 +55,15 @@ sass:
 
 plugins:
   - jekyll-feed
-  - jekyll-soopr-seo-tag
+  - jekyll-seo-tag
+
+# Development tools and documentation should not be copied into the Pages artifact.
+exclude:
+  - Dockerfile
+  - compose.yml
+  - _config.local.yml
+  - bin
+  - vendor
+  - README.md
+  - github_pages.md
+  - moonwalk_on_windows.md
