@@ -1,5 +1,15 @@
 *.gem
 .bundle
 .jekyll-cache
+.jekyll-metadata
 .sass-cache
 _site
+
+# Local Docker preview
+/Dockerfile
+/.dockerignore
+/compose.yml
+/compose.override.yml
+/compose.override.yaml
+/_config.local.yml
+/.env
